@@ -1,0 +1,11 @@
+__pycache__
+.env
+.envrc
+.python-version
+cache
+poetry.lock
+ta
+save
+data/formatting/train.json
+data/image_classification/train.json
+data/image_classification/images

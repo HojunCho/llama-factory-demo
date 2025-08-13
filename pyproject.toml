@@ -1,0 +1,22 @@
+[project]
+name = "llama-factory"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Hojun Cho",email = "napping9100@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+    "llamafactory @ git+https://github.com/hiyouga/LLaMA-Factory.git",
+    "torch (>=2.7.0,<3.0.0)",
+    "vllm (>=0.10.0,<0.11.0)",
+    "langchain (>=0.3.27,<0.4)",
+    "langchain-openai (<=0.3.30)",
+    "ipykernel (>=6.30.1,<7.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
